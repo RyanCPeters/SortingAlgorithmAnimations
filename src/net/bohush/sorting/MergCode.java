@@ -4,6 +4,7 @@ public class MergCode{
     private int blueColumn = -1;
     private int greenColumnStart = -1;
     private int greenColumnFinish = -1;
+	
   public void mergeSort(int start, int fin) throws InterruptedException {
       if ((fin - start) > 0) {
         mergeSort(start, start + (fin - start) / 2);
@@ -65,5 +66,5 @@ public class MergCode{
       }
       greenColumnStart = -1;
       greenColumnFinish = -1;
-	}
+}
     
